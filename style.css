@@ -1,0 +1,125 @@
+@font-face {
+    font-family: 'MyCustomFont';
+    src: url('./digital-7.ttf') format('truetype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+
+}
+
+#heading {
+    font-family: 'MyCustomFont';
+    color: red;
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+#timer {
+    font-family: 'MyCustomFont';
+    color: red;
+    padding: 1rem;
+    font-size: 4rem;
+}
+
+h1,h2 {
+    text-align: center;
+}
+
+.main {
+    height: 40%;
+    background-color: rgb(0, 0, 100);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 0.4rem;
+}
+
+section {
+    padding: 3rem;
+}
+
+.homeScore,
+.guestScore {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: red;
+    font-size: 5rem;
+    font-family: 'MyCustomFont';
+    padding: 0.5rem 0rem;
+    margin: 0.5rem auto;
+}
+
+button {
+    background-color: rgb(0, 0, 100);
+    color: white;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid rgb(168, 168, 168);
+    margin: 1rem 0.1rem;
+    border-radius: 0.3rem;
+}
+
+#newGame {
+    font-size: 1.5rem;
+    font-family: 'MyCustomFont';
+    color: red;
+    padding: 1rem;
+}
+
+#startGame {
+    font-size: 1.5rem;
+    font-family: 'MyCustomFont';
+    color: red;
+    padding: 1rem;
+}
+
+#endGame {
+    font-size: 1.5rem;
+    font-family: 'MyCustomFont';
+    color: red;
+    padding: 1rem;
+}
+
+button:hover {
+    background-color: rgb(8, 8, 165);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+#newGame:hover {
+    background-color: rgb(8, 8, 165);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    font-size: 2rem;
+}
+
+#startGame:hover {
+    background-color: rgb(8, 8, 165);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    font-size: 2rem;
+}
+
+#endGame:hover {
+    background-color: rgb(8, 8, 165);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    font-size: 2rem;
+}
+
+.newButtons {
+    display: flex;
+    gap: 1rem;
+}
